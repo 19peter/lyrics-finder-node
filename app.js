@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const lyricsFinder = require('lyrics-finder');
+const lyricsFinder = require('./scrape.js');
 
 var artist;
 var title;
